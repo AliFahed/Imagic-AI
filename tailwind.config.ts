@@ -24,6 +24,19 @@ const config = {
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
+        blue: {
+          100: "#DCE6FF",
+          200: "#A3B8FF",
+          400: "#6A8DFF",
+          500: "#3E68FF",
+          600: "#0E3DFF",
+        },
+        dark: {
+          400: "#7986AC",
+          500: "#606C80",
+          600: "#2B3674",
+          700: "#384262",
+        },
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
@@ -53,6 +66,13 @@ const config = {
           foreground: "hsl(var(--card-foreground))",
         },
       },
+      fontFamily: {
+        IBMPlex: ["var(--font-ibm-plex)"],
+      },
+      // backgroundImage: {
+      //   "blue-gradient": "url('/assets/images/gradient-bg.svg')",
+      //   banner: "url('/assets/images/banner-bg.png')",
+      // },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
